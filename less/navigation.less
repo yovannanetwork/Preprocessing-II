@@ -1,1 +1,36 @@
 // Navigation Styles here
+@import 'variables.less';
+@import 'mixins.less';
+.navigation{
+    border-bottom: 2px dashed @navigation-border;
+    .container{
+        .flex-display();
+        li{
+            display: inline-block;
+            padding-right: 40px;
+            margin-top: 20px;
+            
+            @media @movil{
+                margin-top: 0;
+                font-size: 2rem;
+                padding: 0 40px;
+            }
+            a{
+                .a-links();
+                .font-p();
+            }
+        }
+        h1{
+            font-size: 3rem;
+            margin: 5px;
+        }
+        
+        @media @movil{
+            .nav{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+    }//conatiner nav
+}

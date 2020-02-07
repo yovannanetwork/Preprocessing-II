@@ -1,1 +1,38 @@
 // Mixins in here
+@import 'variables.less';
+.flex-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.a-links{
+    text-decoration: none;
+    color: @shark;
+}
+.img-width{
+    width: 100%;
+}
+.button{
+    background-color: @button-bg;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    color: @main-bg;
+    .font-p();
+}
+.font-p{
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+}
+.input-choices(){
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+//mixin media queries
+//@movil: ~"(min-width: 500px)";
+@movil: ~ '(max-device-width: 500px)';
+.movil-width(){
+    width: 80%;
+    margin: auto;
+}

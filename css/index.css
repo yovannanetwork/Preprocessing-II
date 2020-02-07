@@ -1,1 +1,233 @@
-/* LESS needs to be processed */
+.navigation {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigation .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navigation .container li {
+  display: inline-block;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+@media (max-device-width: 500px) {
+  .navigation .container li {
+    margin-top: 0;
+    font-size: 2rem;
+    padding: 0 40px;
+  }
+}
+.navigation .container li a {
+  text-decoration: none;
+  color: #212529;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+.navigation .container h1 {
+  font-size: 3rem;
+  margin: 5px;
+}
+@media (max-device-width: 500px) {
+  .navigation .container .nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Indie Flower', cursive;
+}
+h2 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+@media (max-device-width: 500px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+@media (max-device-width: 500px) {
+  .container {
+    width: 85%;
+  }
+}
+.home .content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home .content-section .text-content {
+  width: 48%;
+  padding-right: 1%;
+}
+.home .content-section .img-content {
+  width: 48%;
+  padding-left: 1%;
+}
+.home .content-section .img-content img {
+  border-radius: 10px;
+  width: 100%;
+}
+@media (max-device-width: 500px) {
+  .home .content-section .text-content,
+  .home .content-section .img-content {
+    width: 100%;
+  }
+}
+.home .inverse-content {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .inverse-content .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+.home .inverse-content .img-content {
+  padding-right: 1%;
+  padding-left: 0;
+}
+@media (max-device-width: 500px) {
+  .home .inverse-content {
+    flex-wrap: wrap-reverse;
+  }
+}
+.home .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.home .content-destination img {
+  border-radius: 10px;
+  width: 100%;
+}
+@media (max-device-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+  }
+}
+.home .content-pick {
+  padding-top: 30px;
+  border-top: 2px dashed #C0C0C0;
+  display: flex;
+  justify-content: space-between;
+}
+.home .content-pick .destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+@media (max-device-width: 500px) {
+  .home .content-pick .destination {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-device-width: 500px) {
+  .home .content-pick {
+    display: block;
+  }
+}
+header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+header img {
+  width: 100%;
+}
+#pickUp {
+  text-align: center;
+  height: 200px;
+}
+#pickUp select {
+  border: 1px solid #17A2B8;
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+@media (max-device-width: 500px) {
+  #pickUp select {
+    width: 80%;
+    margin: auto;
+  }
+}
+#pickUp input[type='submit'] {
+  margin: 20px 0;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #17A2B8;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+@media (max-device-width: 500px) {
+  #pickUp input[type='submit'] {
+    width: 80%;
+    margin: auto;
+  }
+}
+.flex-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.a-links {
+  text-decoration: none;
+  color: #212529;
+}
+.img-width {
+  width: 100%;
+}
+.button {
+  background-color: #17A2B8;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+.font-p {
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+.btn {
+  background-color: #17A2B8;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
