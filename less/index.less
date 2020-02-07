@@ -1,1 +1,35 @@
 // Follow the order in the readme
+@import 'navigation.less';
+*{
+    //outline: 1px solid red;
+}
+h1, h2, h3, h4{
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+    .font-p();
+    line-height: 1.5;
+    @media @movil{
+            font-size: 20px;
+        }
+}
+.container{
+    width: 75%;
+    margin: auto;
+    @media @movil{
+        width: 85%;
+    }
+}
+
+@import 'home-page.less';//import home-page.less file
+@import 'mixins.less';//import mixins.less file
+.btn{
+    .button();
+}
+@import 'footer.less';

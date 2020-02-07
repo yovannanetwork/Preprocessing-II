@@ -8,6 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,10 +16,33 @@
 </head>
 
 <body>
-
+  <div class="navigation">
+        <div class="container">
+            <div class="nav">
+            <h1>Fun Bus</h1>
+           </div>
+           <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#conact">Contact</a></li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+    </div>
   
      
   <div class="container home">
+    <header>
+        <img src="img/fun-bus.jpg" alt="fun-bus">
+        <div class="header-text">
+            <h2>Welcome to fun bus!</h2>
+            <p>Traveling expedition modern, clean webdesing blogger clean website theme website modern. Desing pretty desing, travelblogger adeventure wordPress wanderlust theme blogger website expedition theme travelblogger. Adventure fun traveler pretty desing website expedition.</p>
+        </div>
+    </header>
    
     <section class="content-section">
       <div class="text-content">
@@ -63,6 +87,17 @@
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
         <div class="btn">Sign Me Up!</div>
       </div>
+    </section>
+    <section id="pickUp">
+        <form id="vacation">
+        <select name="cars">
+          <option value="0">Pick your destination</option>
+          <option value="fun-sun">Fun In The Sun</option>
+          <option value="mountain">Mountain Excursion</option>
+          <option value="island">Island Getaway</option>
+        </select><br>
+        <input type="submit" value="Submit">
+        </form>
     </section>
   </div><!-- container -->
 
